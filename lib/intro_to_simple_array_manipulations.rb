@@ -29,11 +29,11 @@ def shift_with_args(array)
 end
 
 def using_concat(array1, array2)
-  
+  array1.concat(array2)
 end
 
 def using_insert(array, element)
-   array.sort(element)
+   array[3] = array.insert(element)
 end
 
 def using_uniq(array)
