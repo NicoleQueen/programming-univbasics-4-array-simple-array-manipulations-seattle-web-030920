@@ -36,6 +36,6 @@ def using_insert(array, element)
    array.sort(element)
 end
 
-def using_insert(array, element)
-   array.sort(element)
+def using_uniq(array)
+   array.uniq
 end
