@@ -13,7 +13,7 @@ end
 def pop_with_args(array)
   new_array = []
   
-  new_array.push(array.pop)
+  new_array.unshift(array.pop)
   new_array.push(array.pop)
 end
 
@@ -48,6 +48,6 @@ def using_delete(array)
    array.uniq
 end
 
-def using_delete(array)
+def using_delete_at(array)
    array.uniq
 end
